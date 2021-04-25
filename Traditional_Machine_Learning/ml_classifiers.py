@@ -117,21 +117,6 @@ class ml_clf(object):
 
 
     def svm_clf(self):
-        # SVM = svm.SVC()
-        # parameters = {'kernel':('linear', 'rbf'), 'C':[1, 10]} 
-        # parameters = [{'kernel': ['rbf'], 'gamma': [1e-2, 1e-3, 1e-4, 1e-5],
-        #              'C': [0.001, 0.10, 0.1, 10, 25, 50, 100, 1000]},
-        #             {'kernel': ['sigmoid'], 'gamma': [1e-2, 1e-3, 1e-4, 1e-5],
-        #              'C': [0.001, 0.10, 0.1, 10, 25, 50, 100, 1000]},
-        #             {'kernel': ['linear'], 'C': [0.001, 0.10, 0.1, 10, 25, 50, 100, 1000]}
-        #            ]
-        # print(SVM.get_params().keys())
-        # exit()
-        # grid = GridSearchCV(SVM,parameters,refit=True,verbose=2)
-        # grid.fit(self.Train_X,self.Train_Y)
-        # print(grid.best_estimator_)
-        # exit()
-
         # A sample GridSearched model: 
         # SVM = svm.SVC(C=1000, cache_size=200, class_weight=None, coef0=0.0,
         # decision_function_shape=None, degree=3, gamma=0.01, kernel='rbf',
@@ -146,18 +131,6 @@ class ml_clf(object):
         print("SVM F1 Score -> ",f1_score(predictions_SVM, self.Test_Y))
 
     def rf_clf(self):
-        # rfc=RandomForestClassifier()
-        # parameters = {
-        #     'n_estimators': [50, 150, 250],
-        #     'max_features': ['sqrt', 0.25, 0.5, 0.75, 1.0],
-        #     'min_samples_split': [2, 4, 6]
-        # }
-        # print(rfc.get_params().keys())
-        # grid = GridSearchCV(rfc,parameters,refit=True,verbose=2)
-        # grid.fit(self.Train_X,self.Train_Y)
-        # print(grid.best_estimator_)
-        # exit()
-
         # A sample GridSearched model: 
         # rfc=RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
         #     max_depth=None, max_features=0.5, max_leaf_nodes=None,
@@ -174,18 +147,6 @@ class ml_clf(object):
         print("Random forest F1 Score -> ",f1_score(predictions_rfc, self.Test_Y))
 
     def lr_clf(self):
-        # lrc=LogisticRegression()
-        # parameters = {
-        #     'penalty' : ['l1', 'l2'],
-        #     'C' : np.logspace(-4, 4, 20),
-        #     'solver' : ['liblinear']
-        # }
-        # print(lrc.get_params().keys())
-        # grid = GridSearchCV(lrc,parameters,refit=True,verbose=2)
-        # grid.fit(self.Train_X,self.Train_Y)
-        # print(grid.best_estimator_)
-        # exit()
-
         # lrc = LogisticRegression(C=4.281332398719396, class_weight=None, dual=False,
         #   fit_intercept=True, intercept_scaling=1, max_iter=100,
         #   multi_class='ovr', n_jobs=1, penalty='l1', random_state=None,
