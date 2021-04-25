@@ -3,6 +3,9 @@ Education forum post classification
 The purpose of this repository is to explore text classification methods in 
 education forum post classification
 
+We also include here the Stanford forum post dataset: stanfordMOOCForumPostsSet.tar.gz. This dataset was originally created and labelled by the Stanford financed by the National Science Foundation to support educational research. The dataset can be used for research purpose.
+
+
 @todo add EDM paper reference 
 
 #### Introduction
