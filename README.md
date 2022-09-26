@@ -1,7 +1,7 @@
 Education forum post classification
 -------------------------------------------------------------------------
 The purpose of this repository is to explore text classification methods in 
-education forum post classification. This repo is resulted from this paper: @todo add EDM paper reference. We kindly ask you to reference this paper when applying this repo. 
+education forum post classification. This repo is resulted from this [paper](https://files.eric.ed.gov/fulltext/ED615664.pdf): Which Hammer should I Use? A Systematic Evaluation of Approaches for Classifying Educational Forum Posts. We kindly ask you to reference this paper when applying this repo. 
 
 We also include here the Stanford forum post dataset: stanfordMOOCForumPostsSet.tar.gz. This dataset was originally created and labelled by the Stanford financed by the National Science Foundation to support educational research. The dataset can be used for research purpose.
 
